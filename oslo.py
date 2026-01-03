@@ -88,7 +88,7 @@ print("""
 """)                                                      
 print(f"\033[37m╔{'═' * 59}╗")
 print(f"\033[37m║\033[0m \033[41m{' ' * 17} SCRIPT ADMIN BLACK ARMY {' ' * 15}\033[0m \033[37m║")
-print(f"\033[37m║\033[0m \033[41m  Designt By: KunFay'99{' ' * 35}\033[0m \033[37m║")
+print(f"\033[37m║\033[0m \033[41m  Designt By: KunFay'99{' ' * 34}\033[0m \033[37m║")
 print(f"\033[37m╚{'═' * 59}╝")
 while attemps < 100:
     username = input("\033[100m \033[32m••> Enter your username: \033[33m \033[0m")
@@ -155,7 +155,7 @@ def main():
     """)                                                      
     print(f"\033[37m╔{'═' * 59}╗")
     print(f"\033[37m║\033[0m \033[41m{' ' * 17} SCRIPT ADMIN BLACK ARMY {' ' * 15}\033[0m \033[37m║")
-    print(f"\033[37m║\033[0m \033[41m  Designt By: KunFay'99{' ' * 35}\033[0m \033[37m║")
+    print(f"\033[37m║\033[0m \033[41m  Designt By: KunFay'99{' ' * 34}\033[0m \033[37m║")
     print(f"\033[37m╚{'═' * 59}╝")   
     print(f"\033[32m┏━━KunFayz━━━⬣")
     ip = input("\033[32m┗> Enter Target IP: ").strip()
