@@ -69,11 +69,9 @@ def log_message(message: str):
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         log_file.write(f"[{timestamp}] {message}\n")
     print(message)
-
 attemps = 0
 os.system("clear")
 print("""
-                                                                                                                                                                                                               
 \033[31m╔═══════════════════════════════════════════════════════════╗\033[0m
 \033[31m║\033[100m         \033[36m █████╗\033[97m      █████╗\033[91m     █╗        \033[38;5;206m █████╗\033[100m         \033[31m║
 \033[31m║\033[100m         \033[36m█╔════█║\033[97m    █╔═══█║\033[91m     █║        \033[38;5;206m█╔════█║\033[100m        \033[31m║
