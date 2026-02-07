@@ -13,39 +13,10 @@ from django.core.exceptions import ValidationError
 
 # Clearing the SCREEN
 class colors:
-    BLACK = '\033[30m'
-    RED = '\033[31m'
-    GREEN = '\033[32m'
-    YELLOW = '\033[33m'
-    BLUE = '\033[34m'
-    MAGENTA = '\033[35m'
-    CYAN = '\033[36m'
-    LIGHT_GRAY = '\033[37m'
-    DARK_GRAY = '\033[90m'
-    LIGHT_RED = '\033[91m'
-    LIGHT_GREEN = '\033[92m'
-    LIGHT_YELLOW = '\033[93m'
-    LIGHT_BLUE = '\033[94m'
-    LIGHT_MAGENTA = '\033[95m'
-    LIGHT_CYAN = '\033[96m'
-    WHITE = '\033[97m'
-    RESET = '\033[0m'
-    BOLD = '\033[1m'
-    DIM = '\033[2m'
-    ITALIC = '\033[3m'
-    UNDERLINE = '\033[4m'
-    BLINK = '\033[5m'
-    REVERSE = '\033[7m'
-    HIDDEN = '\033[8m'
-    STRIKETHROUGH = '\033[9m'
-    DOUBLE_UNDERLINE = '\033[21m'
-    NORMAL_COLOR = '\033[22m'
-    NORMAL_INTENSITY = '\033[22m'
-    RESET_UNDERLINE = '\033[24m'
-    RESET_BLINK = '\033[25m'
-    RESET_REVERSE = '\033[27m'
-    RESET_HIDDEN = '\033[28m'
-    RESET_STRIKETHROUGH = '\033[29m'
+    Kblack = '\033[30m'
+    Ured = '\033[31m'
+    Ngreen = '\033[32m'
+    Freset = '\033[0m'
     ORANGE = '\033[38;5;214m'  # Light Orange
     PURPLE = '\033[38;5;141m'  # Light Purple
     TEAL = '\033[38;5;37m'     # Teal
@@ -92,7 +63,7 @@ while attemps < 100:
     username = input("\033[100m \033[32m••> Enter your username: \033[33m \033[0m")
     password = input("\033[100m \033[31m••> Enter your password: \033[33m \033[0m")
 
-    if username == '.....' and password == '.....':
+    if username == 'ternak' and password == 'simul':
         print("\033[104m \033[32m DEDICATED TO THE PALESTINE STRUGGLE \033[0m")
         break
     else:
