@@ -102,7 +102,7 @@ def attack(ip: str, port: int, packet_size: int, rate_limit: float):
 
 os.system("clear")
 os.system("\033[97m \033[33mhttps://github.com/ahmadsan272-ship-it/0slo \033[0m")
-print("\033[33m  Welcome to zona PERANG LAEAN ZI0N15 \033[0m")
+print("\033[33m  HARI GINI JADI TERMUL, LAPAR LO YE...!! 🤣🤣 \033[0m")
 time.sleep(5)
 print("Loading.......")
 
